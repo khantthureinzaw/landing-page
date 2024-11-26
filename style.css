@@ -1,0 +1,159 @@
+body {
+    font-family: Roboto, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #1F2937;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+    background-color: #E5E7EB;
+    color: white;
+}
+
+h1+p, a, footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+
+.sectionTwo {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.quote span {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: auto;
+}
+
+.text button, .sign-up {
+    background-color: #3882F6;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text, .image {
+    max-width: 400px;
+    margin: 50px;
+}
+
+.square {
+    border: 3px solid #3882F6;
+    border-radius: 30%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.square+p {
+    text-align: center;
+}
+
+.sectionThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.sign-up {
+    border-radius: 25px;
+    display: flex;
+    padding: 16px;
+    gap: 24px;
+    align-items: center;
+}
+
+.sign-up p {
+    flex-grow: 4;
+}
+
+.sign-up button {
+    border: 1px solid white;
+    background-color: #3882F6;
+    color: white;
+}
+
+
+button {
+    padding: 8px 24px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
